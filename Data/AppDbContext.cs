@@ -16,5 +16,7 @@ namespace School_CRUD.Data
         public DbSet<ClassRoom> ClassRooms { get; set; }
 
         public DbSet<Attendance> Attendance { get; set; }
+
+        public DbSet<Subject> Subjects { get; set; }
     }
 }
